@@ -1,0 +1,52 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: inherit;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+
+nav a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.sub-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+    padding-right: 2rem;
+    padding-bottom: 0;
+ }
+ 
+ .sub-header figure {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     height: 100%;
+ }
+ 
+ .sub-header figure img {
+     max-width: 30rem;
+     height: 100%;
+ }
+ 
+ .sub-header a {
+     font-size: 1.6rem;
+     border-bottom: 1px solid black;
+ }
+
+ .home {
+     padding-top: 0;
+ }
