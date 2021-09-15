@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 
 :root {
-    --color-primary: #48cfad;
+    --color-primary: rgb(74, 207, 174);
 }
 
 .btn {
@@ -14,6 +14,12 @@
     border: none;
 }
 
+.btn:hover {
+    width: 15.1rem;
+    height: 5.1rem;
+    cursor: pointer;
+    background-color:rgb(55, 158, 132) ;
+}
 
 .btn--secondary {
     width: 15rem;
@@ -23,6 +29,13 @@
     background-color: transparent;
     border: 2px solid var(--color-primary);
     color: black;
+}
+
+.btn--secondary:hover {
+    width: 15.1rem;
+    height: 5.1rem;
+    cursor: pointer;
+    background-color: var(--color-primary);
 }
 
 
@@ -97,7 +110,7 @@ nav a img {
     height: 100%;
 }
 
-.sub-header a {
+.sub-header__link {
     font-size: 1.6rem;
     border-bottom: 1px solid black;
 }
@@ -389,7 +402,7 @@ nav a img {
 .section__title {
     width: 80%;
     margin: 0 auto;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
     margin-top: 2rem;
@@ -402,11 +415,18 @@ nav a img {
     gap: 2rem;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     padding: 1rem;
+
 }
 
 .project h3 {
@@ -417,7 +437,7 @@ nav a img {
 .project p {
     font-size: 1.6rem;
     margin-top: 1rem;
-    text-align: left;
+    text-align: center;
 }
 
 
